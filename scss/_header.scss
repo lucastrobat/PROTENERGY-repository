@@ -1,0 +1,32 @@
+
+header {
+    background: #4b4848;
+    background: radial-gradient(circle, #4b4848 17%, #272824 50%, #090909 84%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+
+           img {
+              height: 40px;
+              width: 40px;
+               }
+
+                    h1 {
+                     font-size: 64px;
+                     color: #ffffff;
+                     font-family: Impact, Charcoal, sans-serif;
+                     text-shadow: 0px 0px 0 #dedede, 1px 0px 0 #bebebe, 2px 0px 0 #9d9d9d, 3px 0px 0 #7c7c7c, 4px 0px 0 #5c5c5c, 5px 0px 0 #3b3b3b, 6px 0px 0 #1a1a1a, 7px 0px 6px rgba(0, 0, 0, 0.72), 7px 0px 1px rgba(0, 0, 0, 0.5), 0px 0px 6px rgba(0, 0, 0, 0.2);
+                     text-align: center;
+                        }
+}
+
+.tipografia {
+  font-family: 'Bebas Neue', cursive; }
+
+.navHead {
+    height: auto;
+    width: auto; }
+
