@@ -1,0 +1,27 @@
+$colores:
+rgb(24, 206, 197),
+rgb(23, 226, 40);
+
+$btn:(
+    animation-duration: 6s,
+    animation-delay: 2s,
+    animation-iteration-count: infinite,);
+%grid{
+
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-auto-rows: 350px;
+      gap: 5px;
+      height: 100%;
+      width: 60vw;
+      justify-items: center;
+      text-align: center;
+      margin-left: 355px;
+}
+@mixin divis ($width, $height, $text-align,){
+    width: $width;
+    height: $height;
+    text-align: $text-align;
+    
+    
+}

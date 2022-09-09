@@ -10,9 +10,9 @@
     width: 100%;
     animation-timing-function: ease-in-out;
     animation-name: animacion;
-    animation-duration: 6s;
-    animation-delay: 2s;
-    animation-iteration-count: infinite;
+    animation-duration: map-get($btn , animation-duration);
+    animation-delay: map-get($btn , animation-delay );
+    animation-iteration-count: map-get($btn , animation-iteration-count);
               }
 
               .contenedor {
@@ -277,6 +277,20 @@
                                 width: 60vw;
                                 justify-items: center;
                                 margin-left: 100px;
+                            }
+                        }
+
+                        @media (max-width: 401px) {
+                            .contenedor {
+                                color: #082d4e;
+                                display: grid;
+                                grid-template-columns: repeat(1, 1fr);
+                                grid-auto-rows: 350px;
+                                gap: 5px;
+                                height: 100%;
+                                width: 60vw;
+                                justify-items: center;
+                                margin-left: 50px;
                             }
                         }
             

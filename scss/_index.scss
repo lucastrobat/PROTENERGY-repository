@@ -26,16 +26,8 @@ body{
 
 
   .contenedor {
-      color: #082d4e;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      grid-auto-rows: 350px;
-      gap: 5px;
-      height: 100%;
-      width: 60vw;
-      justify-items: center;
-      text-align: center;
-      margin-left: 355px;
+      color: nth($colores, 1);
+      @extend %grid;
   }
 
   .contenedor img {
@@ -53,13 +45,13 @@ body{
   }
 
   .modificacion:hover {
-      width: 318px;
-      height: 318px;
+      width: 295px;
+      height: 295px;
       transform: scale(1);
   }
 
   .modificacion2 {
-      width: 1900px;
+      width: 2030px;
       height: 370px;
       text-align: center;
   }
@@ -216,6 +208,19 @@ body{
     }
 }
 
+@media (max-width: 662px) {
+    .contenedor {
+      color: #082d4e;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-auto-rows: 350px;
+      gap: 5px;
+      height: 100%;
+      width: 60vw;
+      justify-items: center;
+      margin-left: 50px; } }
+
+
 @media (max-width: 635px) {
     .contenedor {
         color: #082d4e;
@@ -301,6 +306,20 @@ body{
 }
 
 @media (max-width: 420px) {
+    .contenedor {
+        color: #082d4e;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-auto-rows: 350px;
+        gap: 5px;
+        height: 100%;
+        width: 60vw;
+        justify-items: center;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 401px) {
     .contenedor {
         color: #082d4e;
         display: grid;
