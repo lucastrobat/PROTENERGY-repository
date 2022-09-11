@@ -280,6 +280,20 @@
                             }
                         }
 
+                        @media (max-width: 406px) {
+                            .contenedor {
+                                color: #082d4e;
+                                display: grid;
+                                grid-template-columns: repeat(1, 1fr);
+                                grid-auto-rows: 350px;
+                                gap: 5px;
+                                height: 100%;
+                                width: 60vw;
+                                justify-items: center;
+                                margin-left: 50px;
+                            }
+                        }
+
                         @media (max-width: 401px) {
                             .contenedor {
                                 color: #082d4e;
